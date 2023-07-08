@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+#Home {
+  background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url("./resources/northman.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
