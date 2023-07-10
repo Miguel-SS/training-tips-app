@@ -9,9 +9,15 @@ function Footer() {
             <div className="flex justify-center flex-wrap">
                 <img src={logo}></img>
                 <div className="flex justify-center w-full">
-                    <FaInstagram color="white" fontSize="2em" style={{margin: "0 10px"}}></FaInstagram>
-                    <FaFacebookF color="white" fontSize="2em" style={{margin: "0 10px"}}></FaFacebookF>
-                    <FaTiktok color="white" fontSize="2em" style={{margin: "0 10px"}}></FaTiktok>
+                    <a href="https://www.instagram.com/fabian.sanchezs/" target="_blank" className="text-white hover:text-orange-400 focus:text-orange-400 transition duration-400">
+                        <FaInstagram fontSize="2em" style={{margin: "0 10px"}}></FaInstagram>
+                    </a>
+                    <a href="#" className="text-white hover:text-orange-400 focus:text-orange-400 transition duration-400">
+                        <FaFacebookF fontSize="2em" style={{margin: "0 10px"}}></FaFacebookF>
+                    </a>
+                    <a href="#" className="text-white hover:text-orange-400 focus:text-orange-400 transition duration-400">
+                        <FaTiktok fontSize="2em" style={{margin: "0 10px"}}></FaTiktok>
+                    </a>
                 </div>
             </div>
 
@@ -20,7 +26,7 @@ function Footer() {
             </div>
 
             <div className="flex justify-center">
-                <p className=" text-white">Copyright 2023 Title Page - Todos los derechos reservados</p>
+                <p className=" text-white">Copyright 2023 © Title Page - Todos los derechos reservados</p>
             </div>
         </div>
       </div>

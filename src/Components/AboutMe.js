@@ -2,7 +2,7 @@ import portrait from '../resources/fabian_portrait_fixed.jpg'
 
 function AboutMe() {
     return (
-      <div class="w-full py-32">
+      <div class="w-full py-10 md:py-32">
         <div className="container m-auto">
           <h1 className='text-6xl font-semibold pb-5 text-neutral-800'>About</h1>
           <div className='w-full flex justify-center mb-10'>

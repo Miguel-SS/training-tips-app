@@ -28,8 +28,8 @@ function NavBar() {
     return (
         <div>
           <header className={top ? 
-            "fixed w-full flex justify-between items-center px-4 md:px-12 h-28 transition-all duration-500" : 
-            " bg-neutral-800 fixed w-full flex justify-between items-center px-4 md:px-12 h-16 transition-all duration-500 shadow"}
+            "fixed w-full flex justify-between items-center pl-2 pr-4 md:px-12 h-28 transition-all duration-500" : 
+            " bg-neutral-800 fixed w-full flex justify-between items-center pl-2 pr-4 md:px-12 h-16 transition-all duration-500 shadow"}
             >
             <a href='#home'>
               <img src={logo} alt="Fabian Sanchez" className={top? 'h-32 transition-all duration-500' : 'h-24 transition-all duration-500'}/>
