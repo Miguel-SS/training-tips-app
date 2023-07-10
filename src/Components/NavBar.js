@@ -29,7 +29,7 @@ function NavBar() {
         <div>
           <header className={top ? 
             "fixed w-full flex justify-between items-center px-4 md:px-12 h-28 transition-all duration-500" : 
-            " bg-neutral-900 fixed w-full flex justify-between items-center px-4 md:px-12 h-16 transition-all duration-500 shadow"}
+            " bg-neutral-800 fixed w-full flex justify-between items-center px-4 md:px-12 h-16 transition-all duration-500 shadow"}
             >
             <a href='#home'>
               <img src={logo} alt="Fabian Sanchez" className={top? 'h-32 transition-all duration-500' : 'h-24 transition-all duration-500'}/>
@@ -40,7 +40,7 @@ function NavBar() {
                 <Bars3Icon className="h-12 w-12 text-white" aria-hidden="true" />
               </button>
 
-              <ul className='relative flex left-0 right-0 space-x-6 md:visible'>
+              <ul className='relative md:flex left-0 right-0 space-x-6 hidden'>
                 {navigation.map((item)=> 
                 <li>
                   <a href={item.href} className={top? 
