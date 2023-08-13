@@ -1,5 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+src/Components/ContactMe.js
+
 # dependencies
 /node_modules
 /.pnp
@@ -76,5 +78,14 @@ sketch
 
 # and uncomment the following lines
 # .pnp.*
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
 
 # End of https://www.toptal.com/developers/gitignore/api/react,visualstudiocode,yarn

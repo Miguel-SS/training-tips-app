@@ -1,10 +1,11 @@
 {
   "name": "training-tips-app",
   "version": "0.1.0",
-  "homepage": "https://Miguel-SS.github.io/training-tips-app",
+  "homepage": ".",
   "private": true,
   "proxy": "https://localhost:8080/v1",
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
     "@testing-library/jest-dom": "^5.16.5",
@@ -17,11 +18,12 @@
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
+    "sweetalert": "^2.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "firebase deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

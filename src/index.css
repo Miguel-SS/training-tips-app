@@ -21,3 +21,10 @@ code {
     scroll-behavior: smooth;
   }
 }
+
+/* center buttons of sweetalerts */
+.swal-footer > .swal-button-container {
+  display: flex;
+  justify-content: center;
+}
+
